@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstScreen">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/w2KShop"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textExplore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/w2expl"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/blogin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/pr02_img" />
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:background="@drawable/pr02_log"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/login"
+        android:paddingBottom="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/signup"
+
+        android:layout_width="48dp"
+        android:layout_height="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:background="@drawable/pr02_sign" />
+
+    <ImageView
+        android:id="@+id/line"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:background="@drawable/pr02_line" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/loging"
+        android:paddingBottom="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/pr02_google" />
+
+    <Button
+        android:id="@+id/facebook"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/pr02_face"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/loginf"
+        android:paddingBottom="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
+
+
+
+
+
+

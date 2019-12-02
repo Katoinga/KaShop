@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KaShop</string>
+    <string name="w2KShop">Bienvenido a KaShop</string>
+    <string name="w2expl">Descubrenos!</string>
+    <string name="login">Loguearse</string>
+    <string name="loging">Loguearse con Google</string>
+    <string name="loginf">Loguearse con Facebook</string>
+
 </resources>

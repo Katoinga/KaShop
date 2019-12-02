@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KaShop</string>
-
+    <string name="w2KShop">Bem vinda a KaShop</string>
+    <string name="w2expl">Explore-nos!</string>
+    <string name="login">Entrar</string>
+    <string name="loging">Entrar con Google</string>
+    <string name="loginf">Entrar con Facebook</string>
 </resources>
