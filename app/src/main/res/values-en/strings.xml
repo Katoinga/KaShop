@@ -6,5 +6,8 @@
     <string name="login">Login</string>
     <string name="loging">Login with Google</string>
     <string name="loginf">Login with Facebook</string>
+    <string name="confirm">Confirmation</string>
+    <string name="b2home">Back to Home</string>
+    <string name="succes">You Have Successfully completed your payment procedure</string>
 
 </resources>

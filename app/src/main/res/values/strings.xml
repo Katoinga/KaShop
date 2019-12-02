@@ -5,5 +5,10 @@
     <string name="login">Loguearse</string>
     <string name="loging">Loguearse con Google</string>
     <string name="loginf">Loguearse con Facebook</string>
+    <string name="confirm">Confirmado</string>
+    <string name="b2home">Volver a la pagina principal</string>
+    <string name="succes">Completo exitosamente su procedimiento de pago</string>
+
+
 
 </resources>

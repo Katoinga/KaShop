@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstScreen">
+
+    <TextView
+        android:id="@+id/textConfirmatio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/like"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="247dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/confirm"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textSucc"
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/bconf"
+        android:layout_below="@+id/textConfirmatio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/succes"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:src="@drawable/like" />
+
+    <Button
+        android:id="@+id/bconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/pr02_log"
+        android:fontFamily="@font/segoeui"
+        android:paddingBottom="20dp"
+        android:text="@string/b2home"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
