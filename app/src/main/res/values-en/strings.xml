@@ -9,5 +9,7 @@
     <string name="confirm">Confirmation</string>
     <string name="b2home">Back to Home</string>
     <string name="succes">You Have Successfully completed your payment procedure</string>
+    <string name="reports">Reports</string>
+
 
 </resources>

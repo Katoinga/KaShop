@@ -9,4 +9,6 @@
     <string name="confirm">Confirmação</string>
     <string name="b2home">Voltar à página inicial</string>
     <string name="succes">Você concluiu com êxito seu procedimento de pagamento</string>
+    <string name="reports">Relatórios</string>
+
 </resources>
