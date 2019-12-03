@@ -10,6 +10,16 @@
     <string name="b2home">Back to Home</string>
     <string name="succes">You Have Successfully completed your payment procedure</string>
     <string name="reports">Reports</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dosign">Dont Have a account? Register now</string>
+    <string name="forgot">Forgotten Password? Recover Password</string>
+    <string name="number">Phone Number</string>
 
-
+    <string name="signup">Registro</string>
+    <string name="name">Nombre</string>
+    <string name="signin">Ya tiene una cuenta? Logueese</string>
+    <string name="forgotten">Forgotten Password</string>
+    <string name="code">Enter the code</string>
+    <string name="send">Send</string>
 </resources>

@@ -10,5 +10,16 @@
     <string name="b2home">Voltar à página inicial</string>
     <string name="succes">Você concluiu com êxito seu procedimento de pagamento</string>
     <string name="reports">Relatórios</string>
+    <string name = "email"> Email </string>
+    <string name = "password"> Senha </string>
+    <string name = "dosign"> Não possui uma conta? Registre-se agora </string>
+    <string name = "forgot"> Esqueceu a senha? Recuperar senha </string>
 
+    <string name = "signup"> Registro </string>
+    <string name = "name"> Nominal </string>
+    <string name = "signin"> Você está aqui? Logueese </string>
+    <string name="number">Numero de celular</string>
+    <string name = "forgotten"> Senha esquecida </string>
+    <string name = "code"> Digite o código </string>
+    <string name = "send"> Enviar </string>
 </resources>

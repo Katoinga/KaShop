@@ -9,6 +9,19 @@
     <string name="b2home">Volver a la pagina principal</string>
     <string name="succes">Completo exitosamente su procedimiento de pago</string>
     <string name="reports">Reportes</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="dosign">No tiene cuenta aun? Registrese</string>
+    <string name="forgot">Contraseña olvidada? Recupere su contraseña</string>
+    <string name="signup">Registro</string>
+    <string name="name">Nombre</string>
+    <string name="signin">Ya tiene una cuenta? Logueese</string>
+    <string name="number">Numero de telefono</string>
+
+    <string name="forgotten">Contraseña olvidada</string>
+    <string name="code">Ingrese el codigo</string>
+    <string name="send">Enviar</string>
+
 
 
 </resources>
