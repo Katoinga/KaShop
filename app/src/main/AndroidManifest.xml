@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".cart"></activity>
         <activity android:name=".home_version_2" />
+        <activity android:name=".Item_Details_2"></activity>
         <activity
             android:name=".Forgot"
             android:exported="true" />
