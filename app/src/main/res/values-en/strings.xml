@@ -22,4 +22,25 @@
     <string name="forgotten">Forgotten Password</string>
     <string name="code">Enter the code</string>
     <string name="send">Send</string>
+
+    <string name="categorias">Categories</string>
+    <string name="destacado">Featured</string>
+    <string name="ver_todo">See all</string>
+    <string name="mejor_venta">Best sell</string>
+    <string name="continuar">Continue</string>
+    <string name="cart">Cart</string>
+    <string name="T_shi_muj">Woman T-shirt</string>
+    <string name="T_shi_hom">Man T-shir</string>
+    <string name="buscador">Search your product</string>
+    <string name="halloOfer">Halloween ofert</string>
+    <string name="descuento">20% off in our all products</string>
+    <string name="compra">Buy</string>
+    <string name="femaleShirt">Female T-shirt</string>
+    <string name="polo">T-shirt</string>
+
+
+
+
+
+
 </resources>

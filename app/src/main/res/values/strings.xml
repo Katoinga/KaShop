@@ -22,6 +22,21 @@
     <string name="code">Ingrese el codigo</string>
     <string name="send">Enviar</string>
 
+    <string name="categorias">Categorias</string>
+    <string name="destacado">Destacado</string>
+    <string name="ver_todo">Ver todo</string>
+    <string name="mejor_venta">Lo mejor</string>
+    <string name="continuar">Continuar</string>
+    <string name="cart">Carrito</string>
+    <string name="T_shi_muj">Polo Mujer</string>
+    <string name="T_shi_hom">Polo Hombre</string>
+    <string name="buscador">Busca tu producto</string>
+    <string name="halloOfer">Halloween oferta</string>
+    <string name="descuento">20% descuento en todos los productos</string>
+    <string name="compra">Compra</string>
+    <string name="femaleShirt">Polo Femenino</string>
+    <string name="polo">Polo</string>
+
 
 
 </resources>
