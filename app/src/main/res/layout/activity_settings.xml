@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <ImageView
+        android:id="@+id/Back"
+        android:layout_width="22dp"
+        android:layout_height="9.93dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/txtSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Back"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:text="Ajustes"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSettings"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Usuario"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtUserClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textUser"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Cambiar de Cuenta"
+        android:clickable="true"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtAplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserClickable"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:text="Aplicación"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPrivacyPolicyClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAplication"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Políticas de Privacidad"
+        android:clickable="true"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtReportAProblemClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrivacyPolicyClickable"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Reporta un Problema"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtOthers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReportAProblemClickable"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="39dp"
+        android:text="Otros"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtTeamClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOthers"
+        android:textColor="#524E4E"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Equipo de Trabajo"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
