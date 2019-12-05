@@ -37,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        //editado a mano, si pasa algo,borrarlo
+        <activity android:name=".Settings"></activity>
+        <activity android:name=".Payment" />
+        //
     </application>
 
 </manifest>
