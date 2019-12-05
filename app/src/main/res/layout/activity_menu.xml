@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:src="@drawable/cencel"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/home"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/perfil"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/my_carrito"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/deseos"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/reports"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/congiguraion"
+            android:textColor="#B5474646"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

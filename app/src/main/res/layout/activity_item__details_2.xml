@@ -31,7 +31,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="24dp"
-                    android:background="@drawable/notofication" />
+                    android:background="@drawable/notofication1" />
 
                 <Button
                     android:id="@+id/btn_atras"

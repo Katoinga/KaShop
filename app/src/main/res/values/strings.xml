@@ -37,5 +37,12 @@
     <string name="femaleShirt">Polo Femenino</string>
     <string name="polo">Polo</string>
 
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+    <string name="my_carrito">Mi Carrito</string>
+    <string name="deseos">Lista Deseos</string>
+    <string name="reportes">Reportes</string>
+    <string name="congiguraion">Configuracion</string>
+
 
 </resources>
