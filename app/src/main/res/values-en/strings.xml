@@ -52,6 +52,15 @@
     <string name="Total">Total</string>
     <string name="comprar">Buy</string>
     <string name="blazer">Blazer</string>
+    <string name="black">Black turtleneck top</string>
+    <string name="verigood">Very good</string>
+    <string name="views">9 Reviews</string>
+    <string name="description">Description</string>
+    <string name="awonder">" A wonderful serenity has taken over my whole soul, like these sweet warriors of spring that I enjoy with all my heart. I am alone and I feel the charm of existence in this place, created for the happiness of souls like mine."</string>
+    <string name="selectsize">Select SIze</string>
+    <string name="selectcolor">Select Color</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="buynow">BUY NOW</string>
 
 
 </resources>

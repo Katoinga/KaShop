@@ -54,5 +54,14 @@
     <string name="Total">Total</string>
     <string name="comprar">Comprar</string>
     <string name="blazer">Blazer</string>
+    <string name="black">Top de gola alta preto</string>
+    <string name="verigood">Muito bom</string>
+    <string name="views">" 9 Revisões"</string>
+    <string name="description">Descrição</string>
+    <string name="awonder">Uma maravilhosa serenidade tomou conta de toda a minha alma, como esses doces guerreiros da primavera que eu desfruto de todo o coração. Estou sozinho e sinto o encanto da existência neste lugar, criado para a felicidade de almas como a minha.</string>
+    <string name="selectsize">selecione o tamanho</string>
+    <string name="selectcolor">Selecione a Cor</string>
+    <string name="addtocart">ADICIONAR AO CARRINHO</string>
+    <string name="buynow">COMPRAR AGORA</string>
 
 </resources>

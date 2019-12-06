@@ -51,7 +51,15 @@
     <string name="Total">Total</string>
     <string name="comprar">Comprar</string>
     <string name="blazer">Chaqueta Sport</string>
-    <string name="featured">Destacados</string>
+    <string name="black">Top de cuello alto negro</string>
+    <string name="verigood">Muy bueno</string>
+    <string name="views">9 Vistas</string>
+    <string name="description">Descripción</string>
+    <string name="awonder">Una maravillosa serenidad se ha apoderado de toda mi alma, como estos dulces guerreros de la primavera que disfruto con todo mi corazón. Estoy solo y siento el encanto de la existencia en este lugar, creado para la felicidad de almas como la mía.</string>
+    <string name="selectsize">Seleccionar Tamaño</string>
+    <string name="selectcolor">Seleccionar Color</string>
+    <string name="addtocart">AÑADIR A CARRITO</string>
+    <string name="buynow">COMPRAR AHORA</string>
 
 
 </resources>
