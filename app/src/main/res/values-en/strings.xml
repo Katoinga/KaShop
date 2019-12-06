@@ -26,7 +26,7 @@
     <string name="categorias">Categories</string>
     <string name="destacado">Featured</string>
     <string name="ver_todo">See all</string>
-    <string name="mejor_venta">Best sell</string>
+    <string name="mejor_venta">Wishlist</string>
     <string name="continuar">Continue</string>
     <string name="cart">Cart</string>
     <string name="T_shi_muj">Woman T-shirt</string>
@@ -45,7 +45,12 @@
     <string name="reportes">Reports</string>
     <string name="congiguraion">Settings</string>
 
-
+    <string name="direction">Perú,Arequipa, Av. Independencia \n Casa n°: 854, Piso 4, Dep. 48</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="shipping">Shipping</string>
+    <string name="Total">Total</string>
+    <string name="comprar">Buy</string>
 
 
 

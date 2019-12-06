@@ -8,6 +8,7 @@
 
 
     <Button
+        android:id="@+id/continuar"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -32,10 +33,11 @@
         >
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/backarrow"
+        <Button
+            android:id="@+id/backbu"
+            android:layout_width="22dp"
+            android:layout_height="10dp"
+            android:background="@drawable/backarrow"
             android:layout_margin="10dp"
             android:layout_marginStart="15dp"
 

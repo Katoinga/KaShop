@@ -26,7 +26,7 @@
     <string name="categorias">Categorias</string>
     <string name="destacado">Em destaque</string>
     <string name="ver_todo">Ver tudo</string>
-    <string name="mejor_venta">Melhor venda</string>
+    <string name="mejor_venta">Lista o deseos</string>
     <string name="continuar">Continuar</string>
     <string name="cart">Carrinho</string>
 
@@ -47,6 +47,11 @@
     <string name="congiguraion">Configurações</string>
 
 
-
+    <string name="direction">Perú,Arequipa, Av. Independencia \n Casa n°: 854, Piso 4, Dep. 48</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="discount">Desconto</string>
+    <string name="shipping">Expedição</string>
+    <string name="Total">Total</string>
+    <string name="comprar">Comprar</string>
 
 </resources>

@@ -14,6 +14,7 @@ public class Login extends AppCompatActivity {
     private Button arrow;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +34,12 @@ public class Login extends AppCompatActivity {
                 openSignup();
             }
         });
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openHome();
+            }
+        });
         arrow= findViewById(R.id.backblog);
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +48,11 @@ public class Login extends AppCompatActivity {
             }
         });
 
+
+    }
+    public void openHome(){
+        Intent intent =  new Intent(this, home_version_2.class);
+        startActivity(intent);
     }
     public void openForgot(){
         Intent intent =  new Intent(this, Forgot.class);

@@ -25,7 +25,7 @@
     <string name="categorias">Categorias</string>
     <string name="destacado">Destacado</string>
     <string name="ver_todo">Ver todo</string>
-    <string name="mejor_venta">Lo mejor</string>
+    <string name="mejor_venta">Lista de deseos</string>
     <string name="continuar">Continuar</string>
     <string name="cart">Carrito</string>
     <string name="T_shi_muj">Polo Mujer</string>
@@ -43,6 +43,13 @@
     <string name="deseos">Lista Deseos</string>
     <string name="reportes">Reportes</string>
     <string name="congiguraion">Configuracion</string>
+
+    <string name="direction">Perú,Arequipa, Av. Independencia \n Casa n°: 854, Piso 4, Dep. 48</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="discount">Descuento</string>
+    <string name="shipping">Envio</string>
+    <string name="Total">Total</string>
+    <string name="comprar">Comprar</string>
 
 
 </resources>

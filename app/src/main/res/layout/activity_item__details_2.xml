@@ -64,7 +64,7 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/image"
                 android:layout_marginTop="16dp"/>
-            <EditText
+            <TextView
                 android:id="@+id/editText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_marginTop="25dp"
                 android:background="@drawable/blackturtleneck"
                 android:layout_marginStart="32dp"/>
-            <EditText
+            <TextView
                 android:id="@+id/editText1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/price"
                 android:layout_marginStart="32dp"/>
-            <EditText
+            <TextView
                 android:id="@+id/editText2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -90,7 +90,7 @@
                 android:background="@drawable/review"
 
                 android:inputType="textPersonName" />
-            <EditText
+            <TextView
                 android:id="@+id/editText3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,13 +99,14 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/description"
                 android:layout_marginStart="32dp"/>
-            <EditText
+            <TextView
                 android:id="@+id/editText4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:background="@drawable/sizeandcolor" />
             <Button
+                android:id="@+id/tocart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"

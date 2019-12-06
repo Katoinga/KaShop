@@ -5,13 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Settings">
-    <ImageView
-        android:id="@+id/Back"
-        android:layout_width="22dp"
-        android:layout_height="9.93dp"
-        android:layout_marginLeft="34dp"
-        android:layout_marginTop="41dp"
-        app:srcCompat="@drawable/backarrow" />
 
     <TextView
         android:id="@+id/txtSettings"

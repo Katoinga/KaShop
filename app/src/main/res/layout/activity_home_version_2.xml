@@ -29,13 +29,15 @@
 
 
                 >
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/menu_bar"
-                    android:layout_marginLeft="4dp"
+
+                <Button
+                    android:id="@+id/barr3"
+                    android:layout_width="32dp"
+                    android:layout_height="20dp"
                     android:layout_alignParentBottom="true"
-                    />
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/menu_bar" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="26dp"
@@ -241,7 +243,8 @@
 
                     />
 
-                <TextView
+                <Button
+                    android:id="@+id/featured"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/segoeui"
@@ -249,7 +252,7 @@
                     android:text="@string/ver_todo"
                     android:textColor="#474646"
                     android:textSize="12sp"
-
+                    android:background="@drawable/blank"
                     />
 
             </LinearLayout>
@@ -266,10 +269,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-                    <ImageView
+                    <Button
+                        android:id="@+id/product1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/enmascarar_grupo_4"/>
+                        android:background="@drawable/enmascarar_grupo_4"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -339,7 +343,8 @@
 
                     />
 
-                <TextView
+                <Button
+                    android:id="@+id/wish"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/segoeui"
@@ -347,6 +352,7 @@
                     android:text="@string/ver_todo"
                     android:textColor="#474646"
                     android:textSize="12sp"
+                    android:background="@drawable/blank"
 
                     />
 

@@ -10,9 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cart"/>
-        <activity android:name=".Menu"/>
-        <activity android:name=".home_version_2"/>
+        <activity android:name=".Checkout"></activity>
+        <activity android:name=".cart" />
+        <activity android:name=".Menu" />
+        <activity android:name=".home_version_2" />
         <activity android:name=".Wishlist" />
         <activity android:name=".Featured" />
         <activity android:name=".Item_Details_2" />
@@ -39,11 +40,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings" />
         <activity android:name=".Payment" />
-       
     </application>
 
 </manifest>

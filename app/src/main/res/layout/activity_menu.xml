@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu">
-    <ImageView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_margin="40dp"
-        android:src="@drawable/cencel"/>
+        android:background="@drawable/cencel"
+        />
     <LinearLayout
         android:gravity="center"
         android:layout_width="wrap_content"
@@ -20,7 +21,10 @@
 
 
 
-        <TextView
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/blank"
+            android:id="@+id/menuhome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -28,11 +32,15 @@
             android:fontFamily="@font/segoeui"
             android:text="@string/home"
             android:textColor="#B5474646"
-            android:textSize="25sp" />
+            android:textSize="25sp"
 
-        <TextView
+            />
+
+        <Button
+        android:textAllCaps="false"
+        android:background="@drawable/blank"
+        android:id="@+id/menuperfil"
             android:layout_margin="10dp"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -40,7 +48,10 @@
             android:text="@string/perfil"
             android:textColor="#B5474646"
             android:textSize="25sp" />
-        <TextView
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/blank"
+            android:id="@+id/menucart"
             android:layout_margin="10dp"
 
             android:layout_width="wrap_content"
@@ -50,7 +61,10 @@
             android:text="@string/my_carrito"
             android:textColor="#B5474646"
             android:textSize="25sp" />
-        <TextView
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/blank"
+            android:id="@+id/menuwish"
             android:layout_margin="10dp"
 
             android:layout_width="wrap_content"
@@ -60,7 +74,10 @@
             android:text="@string/deseos"
             android:textColor="#B5474646"
             android:textSize="25sp" />
-        <TextView
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/blank"
+            android:id="@+id/menuchart"
             android:layout_margin="10dp"
 
             android:layout_width="wrap_content"
@@ -70,8 +87,10 @@
             android:text="@string/reports"
             android:textColor="#B5474646"
             android:textSize="25sp" />
-        <TextView
-
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/blank"
+            android:id="@+id/menusett"
             android:layout_margin="10dp"
 
             android:layout_width="wrap_content"

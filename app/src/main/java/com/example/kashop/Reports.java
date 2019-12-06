@@ -3,6 +3,8 @@ package com.example.kashop;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.anychart.AnyChart;
 import com.anychart.AnyChartView;
@@ -14,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Reports extends AppCompatActivity {
-
+    private Button arrow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +32,13 @@ public class Reports extends AppCompatActivity {
 
         AnyChartView anyChartView = findViewById(R.id.any_chart_view);
         anyChartView.setChart(pie);
+
+        arrow= findViewById(R.id.backb);
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
