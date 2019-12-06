@@ -41,13 +41,12 @@
                     android:layout_marginEnd="262dp"
                     android:layout_toStartOf="@+id/button9"
                     android:background="@drawable/shape" />
-
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="23dp"
                     android:layout_height="22dp"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="13dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="25dp"
                     android:layout_toStartOf="@+id/button10"
                     android:background="@drawable/search" />
