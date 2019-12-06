@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Settings extends AppCompatActivity {
@@ -13,15 +14,24 @@ public class Settings extends AppCompatActivity {
     TextView Politicas;
     TextView Reportar;
     TextView Equipo;
+    Button Back2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        Back2=findViewById(R.id.Back2);
         HaciaElInicio=findViewById(R.id.txtUserClickable);
         Politicas=findViewById(R.id.txtPrivacyPolicyClickable);
         Reportar=findViewById(R.id.txtReportAProblemClickable);
         Equipo=findViewById(R.id.txtTeamClickable);
+
+        Back2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         HaciaElInicio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +67,7 @@ public class Settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder TeamWork= new AlertDialog.Builder(Settings.this);
-                TeamWork.setMessage("Somos alumnos de IHC, de Sistemas, nuestro gran líder y futuro monarca: El Minimi, y sus fieles esclavos").setCancelable(true);
+                TeamWork.setMessage("Somos alumnos de IHC, de Sistemas").setCancelable(true);
                 AlertDialog title=TeamWork.create();
                 title.setTitle("Nuestro Equipo");
                 title.show();
