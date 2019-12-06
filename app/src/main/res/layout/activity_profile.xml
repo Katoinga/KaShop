@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+    <Button
+        android:id="@+id/Back3"
+        android:layout_width="22dp"
+        android:layout_height="9.93dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Back3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:hint="@string/profile"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfile"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/Name"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtNamee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="39dp"
+        android:text="Juanito Perez"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textLane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNamee"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/direccion"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtLanee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLane"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:text="Los Tomates 250"
+        android:textColor="#524E4E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLanee"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/city"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtCityy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCity"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="39dp"
+        android:text="Arequipa"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCityy"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/emails"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtEmaill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="39dp"
+        android:text="pepito123@gmail.com"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmaill"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="39dp"
+        android:text="Número de celular"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txtNumeroo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumero"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="39dp"
+        android:text="+51 932374536"
+        android:textColor="#524E4E"
+        android:textSize="20sp"/>
+</RelativeLayout>
