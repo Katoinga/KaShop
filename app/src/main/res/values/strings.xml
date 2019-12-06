@@ -51,5 +51,21 @@
     <string name="Total">Total</string>
     <string name="comprar">Comprar</string>
 
+    <string name="payment">Pago</string>
 
+    <string name="settings">Ajustes</string>
+    <string name="user">Usuario</string>
+    <string name="changeaccount">Cambiar de Cuenta</string>
+    <string name="app">Aplicación</string>
+    <string name="politics">Políticas de Privacidad</string>
+    <string name="reportaun">Reporta un problema</string>
+    <string name="others">Otros</string>
+    <string name="teammates">Equipo de trabajo</string>
+
+    <string name="profile">Perfil</string>
+    <string name="Name">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="city">Ciudad</string>
+    <string name="emails">Correo Electrónico</string>
+    <string name="numerocel">Número de celular</string>
 </resources>

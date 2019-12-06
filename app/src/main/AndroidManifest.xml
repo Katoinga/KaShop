@@ -34,6 +34,7 @@
             android:exported="true" />
         <activity android:name=".FirstScreen" />
         <activity android:name=".MainActivity">
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,6 +43,7 @@
         </activity>
         <activity android:name=".Settings" />
         <activity android:name=".Payment" />
+        <activity android:name=".Profile" />
     </application>
 
 </manifest>

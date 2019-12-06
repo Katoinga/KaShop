@@ -10,11 +10,11 @@
         android:id="@+id/txtSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Back"
+        android:layout_below="@+id/Back2"
         android:layout_alignParentStart="true"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="35dp"
-        android:text="Ajustes"
+        android:layout_marginTop="25dp"
+        android:hint="@string/settings"
         android:textSize="28sp" />
 
     <TextView
@@ -22,22 +22,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtSettings"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="39dp"
-        android:text="Usuario"
-        android:textSize="20sp"/>
+        android:layout_marginTop="25dp"
+        android:hint="@string/user"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtUserClickable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textUser"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="39dp"
-        android:text="Cambiar de Cuenta"
+        android:layout_marginTop="25dp"
         android:clickable="true"
+        android:hint="@string/changeaccount"
         android:textColor="#524E4E"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtAplication"
@@ -46,7 +46,7 @@
         android:layout_below="@+id/txtUserClickable"
         android:layout_marginStart="39dp"
         android:layout_marginTop="35dp"
-        android:text="Aplicación"
+        android:hint="@string/app"
         android:textSize="20sp" />
 
     <TextView
@@ -54,43 +54,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtAplication"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="39dp"
-        android:text="Políticas de Privacidad"
+        android:layout_marginTop="25dp"
         android:clickable="true"
+        android:hint="@string/politics"
         android:textColor="#524E4E"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtReportAProblemClickable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtPrivacyPolicyClickable"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="39dp"
-        android:text="Reporta un Problema"
+        android:layout_marginTop="25dp"
+        android:hint="@string/reportaun"
         android:textColor="#524E4E"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtOthers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtReportAProblemClickable"
-        android:layout_marginTop="35dp"
         android:layout_marginStart="39dp"
-        android:text="Otros"
-        android:textSize="20sp"/>
+        android:layout_marginTop="35dp"
+        android:hint="@string/others"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtTeamClickable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtOthers"
-        android:textColor="#524E4E"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="39dp"
-        android:text="Equipo de Trabajo"
-        android:textSize="20sp"/>
+        android:layout_marginTop="25dp"
+        android:hint="@string/teammates"
+        android:textColor="#524E4E"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Back2"
+        android:layout_width="22dp"
+        android:layout_height="9.93dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/backarrow" />
 
 </RelativeLayout>
