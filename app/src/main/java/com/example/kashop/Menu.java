@@ -62,6 +62,13 @@ public class Menu extends AppCompatActivity {
                 openSett();
             }
         });
+        profile= (Button) findViewById(R.id.menuperfil);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPro();
+            }
+        });
     }
     public void openCart(){
         Intent intent =  new Intent(this, cart.class);
@@ -79,5 +86,8 @@ public class Menu extends AppCompatActivity {
         Intent intent =  new Intent(this, Settings.class);
         startActivity(intent);
     }
-
+    public void openPro(){
+        Intent intent =  new Intent(this, Profile.class);
+        startActivity(intent);
+    }
 }
