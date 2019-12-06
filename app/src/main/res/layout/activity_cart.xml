@@ -95,13 +95,15 @@
                         android:id="@+id/ima1"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/ima1" />
 
                     <LinearLayout
                         android:id="@+id/centro"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="80dp"
+                        android:layout_centerVertical="true"
                         android:layout_toEndOf="@+id/ima1"
                         android:orientation="vertical">
 
@@ -131,32 +133,38 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
                             android:background="@color/fondogris">
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_marginEnd="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toLeftOf="@+id/contador"
-                                android:src="@drawable/menos" />
+                                />
 
                             <TextView
                                 android:id="@+id/contador"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/segoeui"
                                 android:text="1"
                                 android:textSize="16sp" />
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_centerVertical="true"
-                                android:layout_marginStart="30dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toRightOf="@+id/contador"
-                                android:src="@drawable/mas" />
+                                />
 
 
                         </RelativeLayout>
@@ -175,7 +183,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="30dp"
                     android:background="@color/fondoblanco">
 
@@ -183,13 +191,16 @@
                         android:id="@+id/ima2"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/ima2" />
 
                     <LinearLayout
                         android:id="@+id/centro2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="80dp"
                         android:layout_marginTop="10dp"
+                        android:layout_centerVertical="true"
                         android:layout_toRightOf="@+id/ima2"
                         android:orientation="vertical">
 
@@ -219,32 +230,39 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+
                             android:background="@color/fondogris">
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_marginRight="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toLeftOf="@+id/contador2"
-                                android:src="@drawable/menos" />
+                                />
 
                             <TextView
                                 android:id="@+id/contador2"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerInParent="true"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
                                 android:fontFamily="@font/segoeui"
                                 android:text="1"
-                                android:textSize="16dp" />
+                                android:textSize="16sp" />
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_centerVertical="true"
-                                android:layout_marginLeft="30dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toRightOf="@+id/contador2"
-                                android:src="@drawable/mas" />
+                                />
 
 
                         </RelativeLayout>
@@ -275,9 +293,11 @@
 
                     <LinearLayout
                         android:id="@+id/centro3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="80dp"
                         android:layout_marginTop="10dp"
+                        android:layout_centerVertical="true"
                         android:layout_toRightOf="@+id/ima3"
                         android:orientation="vertical">
 
@@ -307,32 +327,39 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+
                             android:background="@color/fondogris">
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_marginRight="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toLeftOf="@+id/contador3"
-                                android:src="@drawable/menos" />
+                                />
 
                             <TextView
                                 android:id="@+id/contador3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/segoeui"
                                 android:text="1"
                                 android:textSize="16dp" />
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_centerVertical="true"
-                                android:layout_marginLeft="30dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toRightOf="@+id/contador3"
-                                android:src="@drawable/mas" />
+                                />
 
 
                         </RelativeLayout>
@@ -364,9 +391,11 @@
 
                     <LinearLayout
                         android:id="@+id/centro4"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="80dp"
                         android:layout_marginTop="10dp"
+                        android:layout_centerVertical="true"
                         android:layout_toRightOf="@+id/ima4"
                         android:orientation="vertical">
 
@@ -397,31 +426,36 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:background="@color/fondogris">
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_marginRight="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toLeftOf="@+id/contador4"
-                                android:src="@drawable/menos" />
-
+                                />
                             <TextView
                                 android:id="@+id/contador4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginStart="16sp"
+                                android:layout_marginEnd="16sp"
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/segoeui"
                                 android:text="1"
                                 android:textSize="16dp" />
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_centerVertical="true"
-                                android:layout_marginLeft="30dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toRightOf="@+id/contador4"
-                                android:src="@drawable/mas" />
+                                />
 
 
                         </RelativeLayout>
@@ -454,9 +488,11 @@
 
                     <LinearLayout
                         android:id="@+id/centro5"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="80dp"
                         android:layout_marginTop="10dp"
+                        android:layout_centerVertical="true"
                         android:layout_toRightOf="@+id/ima5"
                         android:orientation="vertical">
 
@@ -487,31 +523,37 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:background="@color/fondogris">
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_marginRight="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toLeftOf="@+id/contador5"
-                                android:src="@drawable/menos" />
+                                />
 
                             <TextView
                                 android:id="@+id/contador5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginStart="16sp"
+                                android:layout_marginEnd="16sp"
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/segoeui"
                                 android:text="1"
                                 android:textSize="16dp" />
 
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_centerVertical="true"
-                                android:layout_marginLeft="30dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/segoeui"
                                 android:layout_toRightOf="@+id/contador5"
-                                android:src="@drawable/mas" />
+                                />
 
 
                         </RelativeLayout>
