@@ -206,9 +206,14 @@
 
                 <Button
                     android:id="@+id/revi"
-                    android:layout_width="214dp"
-                    android:layout_height="46dp"
-                    android:background="@drawable/revision" />
+                    android:fontFamily="@font/segoeui"
+                    android:paddingBottom="20dp"
+                    android:text="@string/continuar"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pr02_log" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

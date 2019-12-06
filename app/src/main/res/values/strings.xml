@@ -60,6 +60,36 @@
     <string name="selectcolor">Seleccionar Color</string>
     <string name="addtocart">AÑADIR A CARRITO</string>
     <string name="buynow">COMPRAR AHORA</string>
+    <string name="payment">Pago</string>
 
+    <string name="settings">Ajustes</string>
+
+    <string name="user">Usuario</string>
+
+    <string name="changeaccount">Cambiar de Cuenta</string>
+
+    <string name="app">Aplicación</string>
+
+    <string name="politics">Políticas de Privacidad</string>
+
+    <string name="reportaun">Reporta un problema</string>
+
+    <string name="others">Otros</string>
+
+    <string name="teammates">Equipo de trabajo</string>
+
+    <string name="profile">Perfil</string>
+
+    <string name="Name">Nombre</string>
+
+    <string name="direccion">Dirección</string>
+
+    <string name="city">Ciudad</string>
+
+    <string name="emails">Correo Electrónico</string>
+
+    <string name="numerocel">Numero de celular</string>
+
+    <string name="politicastitle">Políticas de servicio</string>
 
 </resources>

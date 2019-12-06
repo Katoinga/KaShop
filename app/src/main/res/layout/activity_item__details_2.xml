@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="90dp"
                         android:layout_marginTop="10dp"
-                        android:fontFamily="@font/seguisb"
+                        android:fontFamily="@font/segoeui"
                         android:text="@string/views"
                         android:textColor="#667EEA"
                         android:textSize="17sp" />
@@ -178,7 +178,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
 
-                        android:fontFamily="@font/seguisb"
+                        android:fontFamily="@font/segoeui"
                         android:text="@string/selectsize"
                         android:textColor="@android:color/black"
                         android:textSize="18dp" />
@@ -228,7 +228,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="14dp"
 
-                        android:fontFamily="@font/seguisb"
+                        android:fontFamily="@font/segoeui"
                         android:text="@string/addtocart"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"
@@ -248,7 +248,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_marginTop="14dp"
                         android:layout_gravity="center"
-                        android:fontFamily="@font/seguisb"
+                        android:fontFamily="@font/segoeui"
 
                         android:text="@string/buynow"
                         android:textColor="@android:color/white"
